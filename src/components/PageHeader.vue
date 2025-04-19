@@ -1,11 +1,9 @@
 <template>
-  <h2 class="italic-font text-primary text-center mt-3">31 Maggio 2025</h2>
-
   <h1
     class="pretty-font text-primary text-center mt-8 mb-16"
     style="font-size: 4.5rem; line-height: 6rem"
   >
-    Tommaso e Teresa
+    Helen & Marco
   </h1>
 
   <v-row justify="center" class="mb-4">

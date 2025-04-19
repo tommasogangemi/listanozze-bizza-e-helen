@@ -5,15 +5,11 @@
         <v-col cols="12" md="8" class="bg-neutral rounded-xl">
           <PageHeader />
 
-          <InfoSection />
+          <!-- <InfoSection /> -->
 
           <GiftsSection />
 
           <MessagesSection />
-
-          <v-container class="mt-4 pb-0">
-            <v-divider />
-          </v-container>
 
           <Footer />
         </v-col>

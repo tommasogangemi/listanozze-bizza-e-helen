@@ -3,7 +3,7 @@
     <!-- <div class="my-3">Puoi effettuare il pagamento puoi scegliere una delle seguenti opzioni</div> -->
 
     <div class="font-weight-bold">Bonifico bancario a:</div>
-    <div class="mb-1">Tommaso Tagliaferri</div>
+    <div class="mb-1">Marco Bizzarri</div>
     <div>
       IBAN:
       <v-btn
