@@ -14,7 +14,7 @@ import SectionHeading from './SectionHeading.vue'
     </v-row>
 
     <v-row justify="center" class="mb-3">
-      <v-col cols="11" md="6" class="text-center">
+      <v-col cols="11" sm="9" lg="6" class="text-center">
         <p class="mb-4">
           Vi aspettiamo il 13 settembre, ore 14:45 alla
           <a href="https://maps.app.goo.gl/DD35jfEFe2fWt8mk8" target="_blank">

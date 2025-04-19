@@ -20,15 +20,15 @@ const showModal = computed(() => !!giftModalView.value)
       <v-img :src="CARD.image" aspect-ratio="1.7" cover class="rounded-xl" />
     </v-col>
 
-    <v-col class="d-flex py-md-6 flex-column justify-space-evenly" style="gap: 20px">
-      <div class="d-flex flex-column flex-md-row justify-space-around align-center">
+    <v-col class="d-flex py-lg-6 flex-column justify-space-evenly" style="gap: 20px">
+      <div class="d-flex flex-column flex-lg-row justify-space-around align-center">
         <v-btn
           rounded="pill"
           size="large"
           variant="text"
           flat
           color="primary"
-          class="mb-4 mb-md-0"
+          class="mb-4 mb-lg-0"
           style="width: fit-content; border: 3px solid rgb(var(--v-theme-primary))"
           @click="giftModalView = 'message'"
         >
