@@ -4,7 +4,7 @@ import GiftModal from './GiftModal.vue'
 import type { EnrichedGift } from '@/composables/useSpreadsheet'
 
 const CARD: EnrichedGift = {
-  name: 'Viaggio di nozze in Nuova Zelanda',
+  name: 'Viaggio di nozze Sudafrica e Seychelles',
   image: 'viaggio.jpeg',
   availableAmount: 100000,
   donatedPercentage: 0
@@ -28,6 +28,7 @@ const showModal = computed(() => !!giftModalView.value)
           variant="text"
           flat
           color="primary"
+          class="mb-4 mb-md-0"
           style="width: fit-content; border: 3px solid rgb(var(--v-theme-primary))"
           @click="giftModalView = 'message'"
         >
