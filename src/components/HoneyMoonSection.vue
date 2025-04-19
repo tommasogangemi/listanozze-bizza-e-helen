@@ -32,7 +32,7 @@ const showModal = computed(() => !!giftModalView.value)
           style="width: fit-content; border: 3px solid rgb(var(--v-theme-primary))"
           @click="giftModalView = 'message'"
         >
-          <span class="font-weight-bold"> Lascia un messaggio di auguri </span>
+          <span class="text-primary"> Lascia un messaggio di auguri </span>
         </v-btn>
 
         <v-btn
@@ -44,7 +44,7 @@ const showModal = computed(() => !!giftModalView.value)
           style="width: fit-content; border: 3px solid rgb(var(--v-theme-primary))"
           @click="giftModalView = 'payment'"
         >
-          <span class="font-weight-bold"> Per contribuire al viaggio </span>
+          <span class="text-primary"> Per contribuire al viaggio </span>
         </v-btn>
       </div>
     </v-col>

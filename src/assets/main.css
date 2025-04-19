@@ -1,19 +1,15 @@
 @import './base.css';
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
 
 @font-face {
   font-family: 'Eyesome Script';
   src: url('Eyesome.otf');
 }
 
-@font-face {
-  font-family: 'Avenir';
-  src: url('Avenir.ttc');
-}
-
 * {
-  font-family: 'Avenir', sans-serif;
+  font-family: 'Bellefair', 'Source Serif 4', serif;
   color: #3b3b3b;
-  font-size: large;
+  font-size: 24px;
 }
 
 #app {

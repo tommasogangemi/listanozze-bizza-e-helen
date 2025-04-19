@@ -9,7 +9,7 @@ import SectionHeading from './SectionHeading.vue'
 
     <v-row>
       <v-col class="text-center pt-0">
-        <h3 class="italic-font text-accent" style="font-size: 2rem">Sabato 13 settembre 2025</h3>
+        <h3 class="italic-font text-accent" style="font-size: 2.5rem">Sabato 13 settembre 2025</h3>
       </v-col>
     </v-row>
 
