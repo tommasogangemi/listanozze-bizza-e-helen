@@ -9,12 +9,12 @@ import SectionHeading from './SectionHeading.vue'
 
     <v-row>
       <v-col class="text-center pt-0">
-        <h3 class="italic-font text-accent">Sabato 13 settembre 2025</h3>
+        <h3 class="italic-font text-accent" style="font-size: 2rem">Sabato 13 settembre 2025</h3>
       </v-col>
     </v-row>
 
     <v-row justify="center" class="mb-3">
-      <v-col cols="10" md="6" class="text-center">
+      <v-col cols="11" md="6" class="text-center">
         <p class="mb-4">
           Vi aspettiamo il 13 settembre, ore 14:45 alla
           <a href="https://maps.app.goo.gl/DD35jfEFe2fWt8mk8" target="_blank">

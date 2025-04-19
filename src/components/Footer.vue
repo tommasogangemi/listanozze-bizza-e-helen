@@ -15,21 +15,18 @@
     </v-row>
 
     <v-row>
-      <v-col
-        class="bg-neutral text-accent text-center my-4"
-        style="font-size: 2.5rem; line-height: 3.5rem"
-      >
-        <div class="italic-font">Grazie di cuore !</div>
-        <div class="italic-font">Helen & Marco</div>
+      <v-col class="bg-neutral text-accent my-4 text-center">
+        <div class="italic-font" style="font-size: 3rem">Grazie di cuore !</div>
+        <div class="italic-font" style="font-size: 3rem">Helen & Marco</div>
       </v-col>
     </v-row>
 
     <v-row justify="space-evenly" class="mb-3">
-      <v-col cols="12" md="auto" class="text-center py-1">
+      <v-col cols="12" md="4" class="text-center py-1">
         <div>Helen: +39 366 4337097 - Via Aretina, 19, Reggello</div>
       </v-col>
 
-      <v-col cols="12" md="auto" class="text-center py-1">
+      <v-col cols="12" md="4" class="text-center py-1">
         <div>Marco: +39 331 6210396 - Via Aretina 53, Le Sieci</div>
       </v-col>
     </v-row>

@@ -6,23 +6,23 @@
     transition="dialog-bottom-transition"
     @update:model-value="closeModal"
   >
-    <v-card v-if="!!gift" class="bg-primary-light">
+    <v-card v-if="!!gift" class="bg-accent">
       <v-card-text class="d-flex align-center">
         <v-container>
           <v-row justify="center">
             <v-col cols="12" md="10" class="px-0">
-              <v-btn
-                color="accent"
-                flat
-                rounded="lg"
-                prepend-icon="mdi-arrow-left"
-                @click="closeModal"
-                >Torna alla lista</v-btn
-              >
+              <v-btn color="primary" flat rounded="lg" @click="closeModal">
+                <span class="text-neutral"> Torna alla lista </span>
+                <template #prepend> <v-icon color="neutral">mdi-arrow-left</v-icon> </template>
+              </v-btn>
             </v-col>
           </v-row>
           <v-row justify="center">
-            <v-col cols="12" md="10" class="bg-neutral-lighten-1 pa-4 pa-md-10 rounded-lg">
+            <v-col
+              cols="12"
+              md="10"
+              class="pa-4 pa-md-10 rounded-lg border border-primary border-md bg-neutral"
+            >
               <GiftModalFormContent
                 v-if="view === 'message'"
                 :gift="gift"

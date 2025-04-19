@@ -20,10 +20,10 @@ export const vuetify = createVuetify({
     themes: {
       light: {
         colors: {
-          primary: '#2d432c',
+          primary: '#550000',
           'primary-lighten-1': '#5e8d56',
           'primary-light': '#c6d8c2',
-          accent: '#2d432c',
+          accent: '#964F4C',
           pink: '#e2bcb8',
           neutral: '#eaefeb',
           'neutral-lighten-1': 'f6f5f5',

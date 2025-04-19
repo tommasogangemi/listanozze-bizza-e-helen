@@ -1,6 +1,6 @@
 <template>
   <h1
-    class="pretty-font text-primary text-center mt-8 mb-16"
+    class="pretty-font text-accent text-center mt-8 mb-16"
     style="font-size: 4.5rem; line-height: 6rem"
   >
     Helen & Marco

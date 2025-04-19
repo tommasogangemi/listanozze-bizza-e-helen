@@ -13,6 +13,8 @@
 
 * {
   font-family: 'Avenir', sans-serif;
+  color: #3b3b3b;
+  font-size: large;
 }
 
 #app {
@@ -25,7 +27,7 @@
 
 a {
   text-decoration: none;
-  color: #2d432c;
+  color: #5a002c;
   transition: 0.4s;
 }
 

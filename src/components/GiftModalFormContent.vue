@@ -32,18 +32,20 @@
           label="Lascia un messaggio per gli sposi"
           density="compact"
           class="mb-2"
+          :rules="[mandatory]"
         />
       </v-form>
 
       <v-btn
         :disabled="!isFormValid || isUpdating"
         :loading="isUpdating"
-        color="primary-lighten-1"
+        color="primary"
         flat
         rounded="lg"
         @click="handleSubmit"
-        >Conferma</v-btn
       >
+        <span class="text-neutral"> Conferma </span>
+      </v-btn>
     </v-col>
   </v-row>
 </template>

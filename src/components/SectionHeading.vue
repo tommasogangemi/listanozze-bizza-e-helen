@@ -4,7 +4,7 @@
       <v-divider />
     </v-col>
     <v-col cols="auto" class="py-0">
-      <h2 :id="id" class="italic-font text-accent" style="font-size: 2.5rem">
+      <h2 :id="id" class="italic-font text-accent" style="font-size: 4rem">
         {{ title }}
       </h2>
     </v-col>
