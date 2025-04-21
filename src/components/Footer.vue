@@ -1,23 +1,23 @@
 <template>
   <v-container class="mb-2">
-    <v-row justify="center" class="mb-4">
+    <!-- <v-row justify="center" class="mb-4">
       <v-col cols="12" class="text-center px-4 px-md-16">
         <div style="font-size: 2rem; border: 1em solid rgb(var(--v-theme-primary))">
           GRAZIE GANGE!
         </div>
       </v-col>
-    </v-row>
+    </v-row> -->
 
     <v-row justify="center">
       <v-col cols="8" md="6">
-        <v-img src="chiesa.jpeg" />
+        <v-img src="watercolor-portrait.png" />
       </v-col>
     </v-row>
 
     <v-row>
       <v-col class="bg-neutral text-accent my-4 text-center">
-        <div class="italic-font" style="font-size: 3rem">Grazie di cuore !</div>
-        <div class="italic-font" style="font-size: 3rem">Helen & Marco</div>
+        <div class="italic-font" style="font-size: 3rem; text-wrap: pretty">Grazie di cuore!</div>
+        <div class="italic-font" style="font-size: 3rem; text-wrap: pretty">Helen & Marco</div>
       </v-col>
     </v-row>
 

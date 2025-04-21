@@ -1,47 +1,28 @@
 <template>
   <div>
-    <!-- <div class="my-3">Puoi effettuare il pagamento puoi scegliere una delle seguenti opzioni</div> -->
-
-    <div class="font-weight-bold">Bonifico bancario a:</div>
-    <div class="mb-1">Marco Bizzarri</div>
-    <div>
+    <div class="text-primary">Bonifico bancario a:</div>
+    <div class="mb-1" style="text-wrap: pretty">Marco Bizzarri e Helen Renzi</div>
+    <div class="d-flex align-center flex-wrap">
       IBAN:
       <v-btn
-        append-icon="mdi-content-copy"
-        color="primary-lighten-1"
+        color="primary"
         rounded="lg"
         variant="outlined"
+        class="border border-primary border-md border-opacity-100 text-truncate"
         @click="onIbanClick"
       >
-        <span class="font-weight-bold"> IT28C0873638010000000074065 </span>
+        <span class="text-primary" style="font-size: 1rem"> {{ IBAN }} </span>
+        <template #append>
+          <v-icon color="primary" size="sm">mdi-content-copy</v-icon>
+        </template>
       </v-btn>
-    </div>
-
-    <div class="font-weight-bold mt-3 mb-1">Paypal</div>
-    <div
-      class="rounded-lg pa-1 paypal"
-      @click="openWindow('https://www.paypal.me/ttagliaferri671')"
-    >
-      <v-img width="96" cover src="paypal.png" />
-    </div>
-
-    <div class="font-weight-bold mt-3 mb-1">Satispay</div>
-    <div
-      class="rounded-lg pa-1 satispay"
-      @click="
-        openWindow(
-          'https://web.satispay.com/download/qrcode/S6Y-CON--3CAEC28A-3949-4B96-AD7B-A2DF45EB8D5B'
-        )
-      "
-    >
-      <v-img width="96" src="satispay.png" />
     </div>
 
     <v-divider class="my-5" />
     <div class="italic-font text-center text-accent" style="font-size: 2rem">Grazie!</div>
   </div>
 
-  <v-snackbar v-model="snackBar" rounded="lg"> Iban copiato! </v-snackbar>
+  <v-snackbar v-model="snackBar" rounded="lg" color="neutral"> Iban copiato! </v-snackbar>
 </template>
 
 <script setup lang="ts">
@@ -51,12 +32,14 @@ defineComponent({ name: 'GiftModalPaymentContent' })
 
 const snackBar = ref(false)
 
+const IBAN = 'IT80J0306234210000002957789'
+
 const openWindow = (url: string) => {
   window.open(url, '_blank')
 }
 
 const onIbanClick = () => {
-  navigator.clipboard.writeText('IT28C0873638010000000074065')
+  navigator.clipboard.writeText(IBAN)
   snackBar.value = true
 
   setTimeout(() => {

@@ -5,7 +5,7 @@ import type { EnrichedGift } from '@/composables/useSpreadsheet'
 
 const CARD: EnrichedGift = {
   name: 'Viaggio di nozze Sudafrica e Seychelles',
-  image: 'viaggio.jpeg',
+  image: 'viaggio.webp',
   availableAmount: 100000,
   donatedPercentage: 0
 }
