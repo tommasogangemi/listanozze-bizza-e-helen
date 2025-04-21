@@ -2,6 +2,7 @@
 import { computed, ref } from 'vue'
 import GiftModal from './GiftModal.vue'
 import type { EnrichedGift } from '@/composables/useSpreadsheet'
+import Countdown from './Countdown.vue'
 
 const CARD: EnrichedGift = {
   name: 'Viaggio di nozze Sudafrica e Seychelles',
@@ -18,6 +19,10 @@ const showModal = computed(() => !!giftModalView.value)
   <v-row justify="center">
     <v-col cols="12" md="8">
       <v-img :src="CARD.image" aspect-ratio="1.7" cover class="rounded-xl" />
+    </v-col>
+
+    <v-col cols="12">
+      <Countdown />
     </v-col>
 
     <v-col class="d-flex py-lg-6 flex-column justify-space-evenly" style="gap: 20px">

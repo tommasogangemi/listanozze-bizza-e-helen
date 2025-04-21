@@ -18,11 +18,11 @@
               <v-row class="my-2">
                 <v-col cols="12">
                   <div>
-                    <span class="text-accent font-weight-bold">
+                    <span class="text-accent">
                       {{ donationMessage.donorName }}
                     </span>
                     <span class="text-grey"> - </span>
-                    <span class="text-grey">{{
+                    <span class="text-grey text-subtitle-1">{{
                       donationMessage.date.toLocaleDateString('it-IT', {
                         year: 'numeric',
                         month: 'long',
