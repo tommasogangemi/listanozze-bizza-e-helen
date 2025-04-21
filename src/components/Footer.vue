@@ -10,7 +10,7 @@
 
     <v-row justify="center">
       <v-col cols="8" md="6">
-        <v-img src="watercolor-portrait.png" />
+        <v-img src="watercolor-portrait.webp" />
       </v-col>
     </v-row>
 
