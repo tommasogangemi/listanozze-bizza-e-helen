@@ -19,12 +19,13 @@ import SectionHeading from './SectionHeading.vue'
           Vi aspettiamo il 13 settembre, ore 14:45 alla
           <a href="https://maps.app.goo.gl/DD35jfEFe2fWt8mk8" target="_blank">
             Pieve di San Battista a Remole, Sieci
+            <v-icon size="18" color="primary">mdi-open-in-new</v-icon>
           </a>
         </p>
 
         <p>
-          La vostra presenza sarà per noi il dono più bello. Ma se desiderate farci un regalo,
-          potete aiutarci a realizzare il nostro viaggio in Sudafrica e Seychelles.
+          La vostra presenza sarà per noi il dono più bello! Se desiderate farci un regalo, potete
+          aiutarci a realizzare il nostro viaggio in Sudafrica e Seychelles.
         </p>
       </v-col>
     </v-row>
