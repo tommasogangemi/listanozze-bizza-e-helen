@@ -18,7 +18,7 @@ import SectionHeading from './SectionHeading.vue'
         <p class="mb-4">
           Vi aspettiamo il 13 settembre, ore 14:45 alla
           <a href="https://maps.app.goo.gl/DD35jfEFe2fWt8mk8" target="_blank">
-            Pieve di San Battista a Remole, Sieci
+            Pieve di San Giovanni Battista a Remole, Sieci
             <v-icon size="18" color="primary">mdi-open-in-new</v-icon>
           </a>
         </p>
